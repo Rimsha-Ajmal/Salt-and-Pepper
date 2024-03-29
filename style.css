@@ -1,0 +1,804 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* Home Page */
+
+/* Section-0: Header */
+
+div.header {
+    background-color: black;
+    display: flex;
+    height: 100px;
+}
+
+/* Logo */
+
+div.logo > img {
+    width: 160px;
+}
+
+/* Navbar */
+
+div.nav li {
+    display: inline-block;
+}
+
+div.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+#nav a {
+    font-size: 17px;
+}
+
+div.logo {
+    margin: 10px 230px;
+}
+
+div.nav {
+    margin-top: 30px;
+}
+
+/* Buttons */
+
+div.buttons {
+    margin: 14px 0px 26px 15px;
+}
+
+#btns {
+    margin: 24px 0px 26px 15px;
+} 
+
+div.buttons > button {
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+div.buttons .btn1 {
+    padding: 14px 15px;
+    font-size: 14px;
+}
+
+div.buttons a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+div.buttons .btn2 {
+    background-color: red;
+    border: none;
+    padding: 12px 13px;
+    font-size: 14px;
+    margin-left: 8px;
+    margin-bottom: 2px;
+}
+
+div.buttons .btn2 i {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+/* Section-2: Brand */
+
+div#brandsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    height: 535px;
+}
+
+/* Content */
+
+div#brandsContainer .brandsContent {
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.brandsContent > h1 , h2{
+    font-size: 40px;
+    font-family: apercu;
+}
+
+.brandsContent > h1 > span {
+    font-size: 52px;
+}
+
+.brandsContent > p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Images */
+
+div#brandsContainer #brandsImages {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+div#brandsImages  .image {
+    background-color: white;
+    width: 250px;
+    height: 120px;
+}
+
+div#brandsImages  .image > img {
+    width: 200px;
+    margin: 16px 0px 0px 18px;
+}
+
+div#brandsImages .btns > button {
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: black;
+}
+
+.btns a {
+    color: white;
+    text-decoration: none;
+}
+
+div#brandsImages .btns {
+    margin: 20px 50px;
+}
+
+
+/* Section-3: Restaurant Franchise  */
+
+#restFranchiseContainer{
+    color: white;
+    background-color: #0F0F0F;
+
+}
+
+/* Content */
+
+#restFranchiseContent {
+    text-align: center;
+}
+
+#restFranchiseContent > h2 {
+    font-size: 52px;
+    padding-top: 100px;
+}
+
+#restFranchiseContent > p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Images */
+
+div#cityBox {
+    margin-top: 50px;
+}
+
+div.franchiseContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.cityContent > h2 {
+    color: white;
+}
+
+.cityContent > h3 {
+    color: #ED1C24;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.5em;
+}
+
+.cityContent > p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 5px;
+}
+
+.cityButton {
+    margin-top: 40px;
+}
+
+.cityButton > button {
+    border-radius: 30px;
+    padding: 8px 15px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.cityButton a {
+    text-decoration: none;
+    color: white;
+}
+
+.cityButton i {
+    font-size: 22px;
+    margin-left: 4px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+/* Islamabad */
+
+ #franchiseContainerLeft1 {
+    margin-right: 110px;
+}
+
+#franchiseContainerRight1 {
+    margin-left: 110px;
+}
+
+/* Faisalabad */
+
+.faisalabad {
+    margin-top: 50px;
+}
+
+#franchiseContainerLeft2 {
+    margin-right: 30px;
+}
+
+#franchiseContainerRight2 {
+    margin-right: 260px;
+}
+
+/* Bahawalpur */
+
+.bahawalpur {
+    margin-top: 50px;
+}
+
+#franchiseContainerLeft3 {
+    margin-right: 110px;
+}
+
+#franchiseContainerRight3 {
+    margin-left: 120px;
+    margin-bottom: 70px;
+}
+
+
+/* Section-4: Express Franchise  */
+
+/* Main container */
+#expressFranchiseContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+/* Rows */
+#row_1 , #row_2 , #row_3 , #row_4 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+/* Heading */
+#expressFranchiseContent {
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+}
+
+/* Container content */
+.containerContent {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+.containerContent  p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.containerContent .address {
+    width: 280px;
+    margin: 0px auto;
+}
+
+.containerContent > h6 {
+    color: #ED1C24;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.5em;
+}
+
+/* Button */
+.containerButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.containerButton > button {
+    border-radius: 30px;
+    padding: 8px 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    /* margin-top: 20px; */
+}
+
+.containerButton a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn_2 {
+    padding-bottom: 22px;
+}
+
+.btn_2 > button {
+    margin: 23px;
+}
+
+.containerButton i {
+    font-size: 22px;
+    margin-left: 4px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+
+#row_4 {
+    margin-bottom: 70px;
+}
+
+
+/* Section-5: Village Franchise */
+
+#villageFranchiseContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0F0F0F;
+}
+
+/* Content */
+
+.villageFranchiseContent {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+/* Image */
+
+#villageFranchiseImgContainer {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+#imageContent {
+    margin-top: 100px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+/* Button */
+
+.villageFranchiseBtn > button {
+    border-radius: 30px;
+    padding: 8px 15px;
+    background-color: #4FA746;
+    border: none;
+}
+
+.villageFranchiseBtn a {
+    text-decoration: none;
+    color: white;
+}
+
+.villageFranchiseBtn i {
+    font-size: 22px;
+    margin-left: 4px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+/* Container content */
+.content {
+    color: white;
+}
+
+.content > p {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 2em;
+}
+
+.content > h4 {
+    color: #ED1C24;
+    font-size: 16px;
+    letter-spacing: 0.5em;
+    font-weight: 390;
+}
+
+.villageFranchiseBtn i {
+    font-size: 22px;
+    margin-left: 4px;
+    background-color:#4FA746;
+    border-radius: 50%;
+}
+
+
+/* Section-6: Social Feed */
+
+/* container */
+
+#socialFeedContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+/* Images */
+
+#socialFeedImages {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.image > img {
+    width: 290px;
+    border-radius: 10px;
+}
+
+/* content */ 
+
+.socialFeedContent > h1 {
+    margin-top: 50px;
+    color: white;
+}
+
+
+/* Section-7: Footer */
+
+footer {
+    background-color: #0F0F0F;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#footerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+footer .firstDiv {
+    width: 340px;
+}
+
+.footerDiv {
+    margin: 70px 60px 40px 60px;
+}
+
+.footerHeading_1 {
+    color: white;
+}
+
+.footerHeading_2 {
+    font-size: 23px;
+}
+
+.footerParagraph  {
+    margin-top: 25px;
+}
+
+
+.footerDownload {
+    margin-bottom: 20px;
+}
+
+/* Icons */
+
+.footerIcons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #E62E2D;
+    margin: 20px 0px;
+    position: relative;
+}
+
+.icon > i {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+#footerEnd {
+    display: flex;
+    justify-content: center;
+}
+
+#footerEnd p {
+    padding: 0px 300px;
+}
+
+span {
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* About Us Page */
+
+/* Section: 1 */
+
+.introduction {
+    color: white;
+    text-align: center;
+    margin: 70px 200px 100px 200px;
+}
+
+.introduction > h1 {
+    display: inline;
+    font-size: 42px;
+}
+
+.introduction p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+}
+
+
+/* Section: 2 */
+
+/* Restaurant Heading */
+
+.restaurantHeading {
+    margin: 50px 200px 30px 200px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+.restaurantHeading > p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.restaurantHeading > h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+/* Restaurant Content */
+
+#restaurantContentAndImage {
+    margin-top: 30px;
+    color: white;
+}
+
+.restaurantContentBox {
+    display: flex;
+    margin: 0px 200px 80px 200px;
+    gap: 30px;
+}
+
+.restaurantContent p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.restaurantContent > h2 {
+    font-size: 30px;
+    font-weight: 400px;
+}
+
+.restaurantImage > img {
+    width: 500px;
+}
+
+.restaurantContent_1 {
+    margin-right: 60px;
+}
+
+.restaurantContent_2 {
+    margin-left: 40px;
+}
+
+
+/* Section: 3 */
+
+/* Franchise Heading */
+
+.franchiseHeading {
+    margin: 50px 200px 30px 200px;
+    text-align: center;
+    color: white;
+    /* font-size: 18px; */
+}
+
+.franchiseHeading > h2 {
+    font-size: 27px;
+    margin-bottom: 70px;
+}
+
+
+/* Franchise Content */
+
+.franchiseBox {
+    display: flex;
+    margin: 0px 200px 80px 200px;
+}
+
+.franchiseContent_1 {
+    margin-right: 60px;
+}
+
+.franchiseContent_2 {
+    margin-left: 50px;
+}
+
+.franchiseContent {
+    color: white;
+}
+
+.franchiseContent > p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.franchiseBox h2 {
+    font-size: 25px;
+}
+
+/* Section: 4 */
+
+#expressContent {
+    margin: 0px 400px;
+    text-align: center;
+    color: white;
+}
+
+#expressContent > p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#expressContentAndImage {
+    display: flex;
+    margin: 40px 200px 80px 200px;
+}
+
+#expressContentAndImage img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+#expressContentAndImage p {
+    margin-left: 35px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* Section: 5 */
+
+
+/* Section: 6 */
+
+#villageContainer {
+    color: white;
+    margin-bottom: 100px;
+}
+
+#villageHeading {
+    text-align: center;
+}
+
+#villageContentAndImage img {
+    width: 500px;
+}
+
+#villageContentAndImage {
+    display: flex;
+    justify-content: center;
+}
+
+.villageContent {
+    margin-left: 30px;
+}
+
+
+/* Publication Page */
+
+.book img {
+    width: 550px;
+    transition-duration: 0.5s;
+}
+
+#publications {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 80px 0px;
+    gap: 25px;
+}
+
+.book {
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.book img:hover {
+    transform: scale(1.1);
+}
+
+#publicationContent {
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+#publicationContent p {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 2em;
+}
+
+#publicationContent h2 {
+    font-size: 30px;
+}
+
+/* Feedback Page */
+
+/* Rate Experience */
+
+#rateExperienceContainer {
+    margin: 0px 520px 60px 520px;
+}
+
+#rateExperienceContainer h1 {
+    text-align: center;
+    color: white;
+}
+
+.rateExperienceInputs input {
+    width: 100%;
+    padding: 15px 0px;
+    margin: 18px 0px;
+    border-radius: 5px;
+    border: none;
+}
+
+.rateExperienceInputs label {
+    font-size: 15px;
+    color: white;
+}
+
+.rateExperienceInputs label > span {
+    color: #E62E2D;
+    font-size: 15px;
+}
+
+#rateExperienceContainer button {
+    background-color: #E62E2D;
+    padding: 16px 23px;
+    border-radius: 30px;
+    border: none;
+}
+
+#rateExperienceContainer button > a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
