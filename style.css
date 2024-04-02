@@ -772,6 +772,26 @@ span {
     color: white;
 }
 
+#rateStars {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.stars p {
+    text-align: center;
+}
+
+.stars i {
+    font-size: 14px;
+}
+
+.stars i:hover {
+    color: red;
+}
+
 .rateExperienceInputs input {
     width: 100%;
     padding: 15px 0px;
@@ -801,4 +821,63 @@ span {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+}
+
+/* Franchise Page */
+
+#franchiseContainer {
+    color: white;
+}
+
+#franchiseContainer h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 90px;
+}
+
+#franchiseInputs {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+#franchiseInputs input {
+    padding: 15px 180px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#franchiseInputs label {
+    color: #ADB0B3;
+    font-size: 18px;
+}
+
+#franchiseInputs select {
+    padding: 15px 150px;
+    border-radius: 5px;
+}
+
+.submitButton button {
+    padding: 18px 55px;
+    border-radius: 30px;
+    border: none;
+    background-color: #E62E2D;
+    color: white;
+}
+
+.submitButton {
+    margin: 40px 0px 60px 225px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
